@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "../styles/ContentSection.css";
 import SideBar from "../components/SideBar";
 import SearchBar from "../components/SearchBar";
-import DashboardBag from "../components/DashboardBag";
+import DashboardBag from "./DashboardBag";
 import addbagIcon from '../Assets/addbagIcon.png';
 import { Link } from "react-router-dom";
 import { useSelector,useDispatch } from 'react-redux';
