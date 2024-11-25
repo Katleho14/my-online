@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Dashboard from './pages/Dashboard'; 
-import CartPage from './pages/CartPage'; 
-import ContentSection from "./components/ContentSection";
-import ItemView from "./pages/ItemView";
+import Dashboard from './Pages/Dashboard'
+import CartPage from './Pages/CartPage'
+import ContentSection  from './components/ContentSection'
+import ItemView from './Pages/ItemView'
 import DashboardBag from "./components/DashboardBag";
-import Checkout from './pages/Checkout';
-import Address from "./pages/Address";
+import Checkout from './Pages/Checkout'
+import Address from './Pages/Address'
 import PaymentMethod from "./components/PaymentMethod";  
-import ShippingAdd from "./components/shippingAdd"; 
+import ShippingAdd from './components/ShippingAdd' 
 
 
 
