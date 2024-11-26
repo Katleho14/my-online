@@ -41,9 +41,11 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9",
     "@typescript-eslint/eslint-plugin": "^8.15.0",
     "@typescript-eslint/utils": "^8.15.0",
-    "eslint": "^9.15.0",
+    "eslint": "^8.57.1",
     "webpack": "^5.96.1"
   }
 }
