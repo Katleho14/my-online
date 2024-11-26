@@ -7,10 +7,8 @@ function SearchBar({ onSearch }) {
     const handleInputChange = (event) => {
         const query = event.target.value;
         setSearchQuery(query);
-       onSearch(query);
+        onSearch(query); // Call the parent function to filter products
     };
-
-   
 
     return (
         <div className="dashboard">
